@@ -1,0 +1,36 @@
+[
+  {
+    "id": "cmd69nthp08xuqjqr84p9fzc2",
+    "blueprintId": "cmd69nthi08xrqjqrreyme43t",
+    "name": "Core Batch Functionality",
+    "description": "Main feature implementing Batch photo renaming and metadata organizer",
+    "type": "CORE",
+    "priority": "MUST_HAVE",
+    "complexity": "MODERATE",
+    "isMvp": true,
+    "dataFlow": null,
+    "dependencies": [],
+    "apiCalls": [],
+    "userValue": "Essential functionality",
+    "usageFrequency": "DAILY",
+    "createdAt": "2025-07-16T18:00:05.389Z"
+  },
+  {
+    "id": "cmd69nthp08xvqjqr2rscm07v",
+    "blueprintId": "cmd69nthi08xrqjqrreyme43t",
+    "name": "Export Functionality",
+    "description": "Export data in multiple formats",
+    "type": "CORE",
+    "priority": "MUST_HAVE",
+    "complexity": "SIMPLE",
+    "isMvp": true,
+    "dataFlow": null,
+    "dependencies": [
+      "FileSaver.js"
+    ],
+    "apiCalls": [],
+    "userValue": "Data portability",
+    "usageFrequency": "WEEKLY",
+    "createdAt": "2025-07-16T18:00:05.389Z"
+  }
+]

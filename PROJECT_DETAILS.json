@@ -1,0 +1,50 @@
+{
+  "project": {
+    "id": "cmd6768kk02hnqjs9j0z68b7r",
+    "name": "Batch photo renaming and metadata organizer",
+    "description": "Local-only processing, export to Lightroom/Photoshop",
+    "useCase": "Batch photo renaming and metadata organizer",
+    "uniqueAngle": "Local-only processing, export to Lightroom/Photoshop",
+    "whyElite": "",
+    "createdAt": "2025-07-16T16:50:25.892Z",
+    "updatedAt": "2025-07-17T15:38:43.917Z"
+  },
+  "platform": {
+    "id": "cmd6762sf009gqjs9mckwc9m4",
+    "name": "Electron App",
+    "slug": "electron-app"
+  },
+  "category": {
+    "id": "cmd6762iy005jqjs9ltioi2qe",
+    "name": "Business & Entrepreneurship",
+    "slug": "business-entrepreneurship"
+  },
+  "targetUsers": [
+    {
+      "id": "cmd6762vm00aqqjs9ixv97q3f",
+      "slug": "photographers",
+      "name": "Photographers",
+      "description": null,
+      "createdAt": "2025-07-16T16:50:18.515Z",
+      "updatedAt": "2025-07-16T17:05:27.653Z"
+    }
+  ],
+  "tags": [
+    {
+      "id": "cmd67625w0006qjs9p4i68g1j",
+      "slug": "defi",
+      "name": "DeFi",
+      "category": "FEATURE",
+      "createdAt": "2025-07-16T16:50:17.589Z",
+      "updatedAt": "2025-07-16T17:05:28.435Z"
+    },
+    {
+      "id": "cmd67626l000dqjs943iviota",
+      "slug": "local-first",
+      "name": "Local-First",
+      "category": "FEATURE",
+      "createdAt": "2025-07-16T16:50:17.613Z",
+      "updatedAt": "2025-07-16T17:05:28.437Z"
+    }
+  ]
+}

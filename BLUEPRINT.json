@@ -1,0 +1,308 @@
+{
+  "id": "cmd69nthi08xrqjqrreyme43t",
+  "projectId": "cmd6768kk02hnqjs9j0z68b7r",
+  "analyzedAt": "2025-07-16T18:00:05.382Z",
+  "analysisVersion": "1.0",
+  "promptVersion": "1.0",
+  "featureSpecs": {
+    "coreFeatures": [
+      {
+        "name": "Core Batch Functionality",
+        "description": "Main feature implementing Batch photo renaming and metadata organizer",
+        "functionality": "Main feature implementing Batch photo renaming and metadata organizer"
+      },
+      {
+        "name": "Export Functionality",
+        "description": "Export data in multiple formats",
+        "functionality": "Export data in multiple formats"
+      }
+    ],
+    "technicalSpecs": {
+      "platform": "Electron Tool",
+      "offlineCapable": true,
+      "performanceTargets": {
+        "loadTime": "< 2s",
+        "responseTime": "< 100ms"
+      }
+    },
+    "advancedFeatures": []
+  },
+  "userStories": {
+    "edgeCases": [
+      {
+        "handling": "Full offline functionality",
+        "scenario": "No internet connection"
+      },
+      {
+        "handling": "Pagination and virtualization",
+        "scenario": "Large data sets"
+      }
+    ],
+    "accessibility": {
+      "wcagLevel": "AA",
+      "keyboardNav": "Full support",
+      "screenReader": "ARIA labels"
+    },
+    "primaryStories": [
+      {
+        "story": "As a Photographers, I want to Batch photo renaming and metadata organizer",
+        "persona": "Photographers",
+        "acceptanceCriteria": [
+          "Feature works",
+          "Easy to use",
+          "Fast response"
+        ]
+      }
+    ]
+  },
+  "userFlows": {
+    "uiLayout": {
+      "structure": "Multi-pane",
+      "responsive": true
+    },
+    "primaryJourney": [
+      "User opens app",
+      "Main functionality visible",
+      "User performs primary action",
+      "Result displayed",
+      "User can export/save"
+    ]
+  },
+  "implementation": {
+    "storage": "Local persistence",
+    "techStack": {
+      "storage": [
+        "SQLite",
+        "File System"
+      ],
+      "language": "TypeScript",
+      "framework": "Electron + React",
+      "mlRuntime": null,
+      "uiLibrary": "Tailwind CSS",
+      "buildTools": [
+        "Electron Forge",
+        "Webpack"
+      ]
+    },
+    "architecture": "Client-side only"
+  },
+  "monetization": {
+    "model": "Free",
+    "pricing": [
+      {
+        "tier": "FREE",
+        "price": 0,
+        "value": "Try before buying",
+        "limits": {
+          "usage": "Limited"
+        },
+        "features": [
+          "Basic features",
+          "Limited usage"
+        ],
+        "interval": null,
+        "targetPersona": "Casual users"
+      }
+    ],
+    "provider": "Paddle"
+  },
+  "extensibility": {
+    "plugins": true,
+    "customization": "Themes and settings"
+  },
+  "validation": {
+    "testing": "Unit and integration tests",
+    "coverage": "80% target"
+  },
+  "security": {
+    "privacy": "Zero telemetry",
+    "encryption": "Optional",
+    "dataStorage": "Local only"
+  },
+  "goToMarket": {
+    "channels": [
+      "ProductHunt",
+      "Reddit",
+      "Twitter"
+    ],
+    "positioning": "Local-only processing, export to Lightroom/Photoshop",
+    "differentiators": [
+      "Privacy-first",
+      "No subscriptions",
+      "Offline-first"
+    ]
+  },
+  "roadmap": {
+    "phases": [
+      {
+        "name": "Core Implementation",
+        "duration": "21 days",
+        "deliverables": [
+          "Core features",
+          "Basic UI",
+          "Local storage"
+        ]
+      },
+      {
+        "name": "Polish & Features",
+        "duration": "14 days",
+        "deliverables": [
+          "Advanced features",
+          "Themes",
+          "Performance optimization"
+        ]
+      }
+    ]
+  },
+  "createdAt": "2025-07-16T18:00:05.382Z",
+  "updatedAt": "2025-07-16T18:00:05.382Z",
+  "techStack": {
+    "id": "cmd69nthn08xtqjqr0gotls3p",
+    "blueprintId": "cmd69nthi08xrqjqrreyme43t",
+    "framework": "Electron + React",
+    "language": "TypeScript",
+    "buildTools": [
+      "Electron Forge",
+      "Webpack"
+    ],
+    "storage": [
+      "SQLite",
+      "File System"
+    ],
+    "mlRuntime": null,
+    "uiLibrary": "Tailwind CSS",
+    "loadTimeTarget": 2000,
+    "memoryLimit": 256,
+    "offlineStorage": 500,
+    "createdAt": "2025-07-16T18:00:05.387Z"
+  },
+  "features": [
+    {
+      "id": "cmd69nthp08xuqjqr84p9fzc2",
+      "blueprintId": "cmd69nthi08xrqjqrreyme43t",
+      "name": "Core Batch Functionality",
+      "description": "Main feature implementing Batch photo renaming and metadata organizer",
+      "type": "CORE",
+      "priority": "MUST_HAVE",
+      "complexity": "MODERATE",
+      "isMvp": true,
+      "dataFlow": null,
+      "dependencies": [],
+      "apiCalls": [],
+      "userValue": "Essential functionality",
+      "usageFrequency": "DAILY",
+      "createdAt": "2025-07-16T18:00:05.389Z"
+    },
+    {
+      "id": "cmd69nthp08xvqjqr2rscm07v",
+      "blueprintId": "cmd69nthi08xrqjqrreyme43t",
+      "name": "Export Functionality",
+      "description": "Export data in multiple formats",
+      "type": "CORE",
+      "priority": "MUST_HAVE",
+      "complexity": "SIMPLE",
+      "isMvp": true,
+      "dataFlow": null,
+      "dependencies": [
+        "FileSaver.js"
+      ],
+      "apiCalls": [],
+      "userValue": "Data portability",
+      "usageFrequency": "WEEKLY",
+      "createdAt": "2025-07-16T18:00:05.389Z"
+    }
+  ],
+  "userPersonas": [
+    {
+      "id": "cmd69nthr08xwqjqrasroqiv6",
+      "blueprintId": "cmd69nthi08xrqjqrreyme43t",
+      "name": "Photographers",
+      "description": "Primary user type: Photographers",
+      "type": "PRIMARY",
+      "profession": "Photographers",
+      "experience": "5+ years",
+      "techSavvy": "INTERMEDIATE",
+      "primaryGoals": [
+        "Use Batch photo renaming and metadata organizer",
+        "Save time",
+        "Improve workflow"
+      ],
+      "painPoints": [
+        "Current tools are complex",
+        "Privacy concerns",
+        "Subscription fatigue"
+      ],
+      "jobsToBeDone": [
+        "Batch photo renaming and metadata organizer"
+      ],
+      "usageContext": "Desktop",
+      "frequency": "DAILY",
+      "createdAt": "2025-07-16T18:00:05.391Z"
+    }
+  ],
+  "pricePoints": [
+    {
+      "id": "cmd69ntht08xxqjqr1t9e191u",
+      "blueprintId": "cmd69nthi08xrqjqrreyme43t",
+      "tier": "FREE",
+      "price": 0,
+      "currency": "USD",
+      "interval": null,
+      "features": [
+        "Basic features",
+        "Limited usage"
+      ],
+      "limits": {
+        "usage": "Limited"
+      },
+      "targetPersona": "Casual users",
+      "value": "Try before buying",
+      "createdAt": "2025-07-16T18:00:05.393Z"
+    }
+  ],
+  "competitors": [],
+  "milestones": [
+    {
+      "id": "cmd69nthv08xyqjqreekejmoq",
+      "blueprintId": "cmd69nthi08xrqjqrreyme43t",
+      "phase": "MVP",
+      "name": "Core Implementation",
+      "description": "Basic Batch photo renaming and metadata organizer functionality",
+      "weekNumber": 1,
+      "duration": 21,
+      "deliverables": [
+        "Core features",
+        "Basic UI",
+        "Local storage"
+      ],
+      "successCriteria": [
+        "All core features working",
+        "Responsive design"
+      ],
+      "dependencies": [],
+      "createdAt": "2025-07-16T18:00:05.395Z"
+    },
+    {
+      "id": "cmd69nthv08xzqjqrzl8dt50p",
+      "blueprintId": "cmd69nthi08xrqjqrreyme43t",
+      "phase": "ENHANCEMENT",
+      "name": "Polish & Features",
+      "description": "UI polish and additional features",
+      "weekNumber": 4,
+      "duration": 14,
+      "deliverables": [
+        "Advanced features",
+        "Themes",
+        "Performance optimization"
+      ],
+      "successCriteria": [
+        "Load time < 2s",
+        "All features tested"
+      ],
+      "dependencies": [
+        "Core Implementation"
+      ],
+      "createdAt": "2025-07-16T18:00:05.395Z"
+    }
+  ]
+}
